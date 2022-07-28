@@ -57,9 +57,42 @@
                       </ul>
                 </div>
                 <form class="d-flex">
-                  
-                  <button class="btn btn-warning text-white"type="submit">Enroll Now</button>
-                </form>
+                  <button type="button" class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Enroll Now
+                  </button>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-warning" id="exampleModalLabel">Please Signup</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password(Confirm)</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </form>
               </div>
             </div>
           </nav>
@@ -210,13 +243,50 @@
             <div class="col-6 p-5">
               
               <section class="text-end m-5">
-                <div class="btn btn-warning px-4 text-white">Register Now</div>
-              </section>
+  <!-- Button trigger modal Start-->
+      <button type="button" class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Register Now
+      </button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-warning" id="exampleModalLabel">Please Signup</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password(Confirm)</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal End-->
+ </section>
              
             </div>
           </div>
          </section> 
          <!-- Explore End -->
+
          <!-- Successfull Students Start -->
          
          <section class="container mt-5">
@@ -271,14 +341,14 @@
          <section class="text-center m-5">
           <div class="btn btn-warning px-4 text-white">View All</div>
         </section>
+        <!-- Successfull Students End -->
+
         <section class="container text-center m-5">
           <div class="px-5">
             <h1 class=" mx-5 px-5 text-warning">Some Students Feedback</h1>
             <p class=" my-3 mx-5 px-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
         </section>
-
-<!-- Successfull Students End -->
 
 
     </main>
